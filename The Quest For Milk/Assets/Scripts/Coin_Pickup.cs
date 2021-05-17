@@ -8,6 +8,7 @@ public class Coin_Pickup : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
+            Score_Text.coinAmount += 1;
             Destroy (gameObject);
         }
     }

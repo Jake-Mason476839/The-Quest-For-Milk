@@ -28,4 +28,12 @@ public class Enemy_AI_Slug : MonoBehaviour
             }
         }
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            Destroy (gameObject);
+        }
+    }
 }
