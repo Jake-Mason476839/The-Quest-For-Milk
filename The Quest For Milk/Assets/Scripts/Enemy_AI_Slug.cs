@@ -33,6 +33,7 @@ public class Enemy_AI_Slug : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
+            Kill_Count.killCounter += 1;
             Destroy (gameObject);
         }
     }
