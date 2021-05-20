@@ -190,6 +190,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8870292707990260083, guid: 364cf82c72e7d0747bcbcc5189af9ead, type: 3}
   m_PrefabInstance: {fileID: 287713388}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &362463327 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8054330641159905921, guid: d2bbe9e072d6acf46b4c720237d7417c, type: 3}
+  m_PrefabInstance: {fileID: 8054330640004304090}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &480514543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1894,6 +1899,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1527620962}
     m_Modifications:
+    - target: {fileID: 8054330641159905921, guid: d2bbe9e072d6acf46b4c720237d7417c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054330641159905921, guid: d2bbe9e072d6acf46b4c720237d7417c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0274
+      objectReference: {fileID: 0}
     - target: {fileID: 8054330641573231923, guid: d2bbe9e072d6acf46b4c720237d7417c, type: 3}
       propertyPath: m_Name
       value: Sunflower
@@ -1906,6 +1919,10 @@ PrefabInstance:
       propertyPath: bulletScript
       value: 
       objectReference: {fileID: -1929594128128938491, guid: 9158130459eb1ec49b9b5e4f64979229, type: 3}
+    - target: {fileID: 8054330641573231925, guid: d2bbe9e072d6acf46b4c720237d7417c, type: 3}
+      propertyPath: bulletSpawn
+      value: 
+      objectReference: {fileID: 362463327}
     - target: {fileID: 8054330641573231926, guid: d2bbe9e072d6acf46b4c720237d7417c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.843323

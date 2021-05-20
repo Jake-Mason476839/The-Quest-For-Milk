@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: sunflowerBullet
       value: 
       objectReference: {fileID: 4454679763553234092, guid: 9158130459eb1ec49b9b5e4f64979229, type: 3}
+    - target: {fileID: 8054330641573231925, guid: d2bbe9e072d6acf46b4c720237d7417c, type: 3}
+      propertyPath: bulletSpawn
+      value: 
+      objectReference: {fileID: 1810138633}
     - target: {fileID: 8054330641573231926, guid: d2bbe9e072d6acf46b4c720237d7417c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.780016
@@ -1867,6 +1871,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.20662287, y: 0.17102934}
   m_EdgeRadius: 0
+--- !u!4 &1810138633 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8054330641159905921, guid: d2bbe9e072d6acf46b4c720237d7417c, type: 3}
+  m_PrefabInstance: {fileID: 75373233}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1873751612 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8870292707990260083, guid: 364cf82c72e7d0747bcbcc5189af9ead, type: 3}

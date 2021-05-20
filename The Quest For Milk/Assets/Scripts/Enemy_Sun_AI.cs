@@ -5,7 +5,8 @@ using UnityEngine;
 public class Enemy_Sun_AI : MonoBehaviour
 {
     public GameObject sunflowerBullet;
-    public Bullet bulletScript;
+    public Transform bulletSpawn;
+    private GameObject newInstance;
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -18,6 +19,8 @@ public class Enemy_Sun_AI : MonoBehaviour
 
     public void ShootEvent()
     {
-        bulletScript.Fire();
+        float instX = bulletSpawn.transform.position.x;
+        float instY = bulletSpawn.transform.position.y;
+        newInstance = Instantiate(sunflowerBullet, new Vector3(instX, instY, -1), Quaternion.identity);
     }
 }

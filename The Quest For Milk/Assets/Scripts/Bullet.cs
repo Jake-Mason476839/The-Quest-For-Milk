@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float bulletSpeed = 10f;
-    public Rigidbody2D bullet;
-    public Transform bulletSpawn;
-
-    public void Fire()
+    void Update()
     {
-        Rigidbody2D bulletClone = (Rigidbody2D) Instantiate(bullet, transform.position, transform.rotation);
-        bulletClone.velocity = transform.forward * bulletSpeed;
+        float xSpeed = -10.0f;
+        transform.position += new Vector3(xSpeed * Time.deltaTime , 0, 0);
+        Object.Destroy(gameObject, 2.0f);
     }
 }
