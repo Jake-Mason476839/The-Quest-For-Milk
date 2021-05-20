@@ -174,6 +174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sunflower
       objectReference: {fileID: 0}
+    - target: {fileID: 8054330641573231925, guid: d2bbe9e072d6acf46b4c720237d7417c, type: 3}
+      propertyPath: sunflowerBullet
+      value: 
+      objectReference: {fileID: 4454679763553234092, guid: 9158130459eb1ec49b9b5e4f64979229, type: 3}
     - target: {fileID: 8054330641573231926, guid: d2bbe9e072d6acf46b4c720237d7417c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.780016
@@ -845,6 +849,7 @@ GameObject:
   - component: {fileID: 1048596165}
   - component: {fileID: 1048596164}
   - component: {fileID: 1048596163}
+  - component: {fileID: 1048596166}
   m_Layer: 0
   m_Name: TQFM Broken sign
   m_TagString: Untagged
@@ -943,6 +948,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1048596166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048596162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc6c100fef8b3284dbb58ff746b3a642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1054382474 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4412653364526745190, guid: d4ba554a40fa55f4393445c7c681126f, type: 3}

@@ -1,18 +1,16 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float bulletSpeed = 10f;
+    public Rigidbody2D bullet;
+    public Transform bulletSpawn;
 
-    // Update is called once per frame
-    void Update()
+    public void Fire()
     {
-        
+        Rigidbody2D bulletClone = (Rigidbody2D) Instantiate(bullet, transform.position, transform.rotation);
+        bulletClone.velocity = transform.forward * bulletSpeed;
     }
 }

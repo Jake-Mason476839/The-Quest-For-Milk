@@ -9,7 +9,7 @@ public class Load_Level5 : MonoBehaviour
     {
         if (col .gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(5);
         }
     }
 }

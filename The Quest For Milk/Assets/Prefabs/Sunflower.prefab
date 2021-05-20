@@ -148,7 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cfc01cca6a50ac4281a3eae039250db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sunflowerBullet: {fileID: 0}
+  sunflowerBullet: {fileID: 4454679763553234092, guid: 9158130459eb1ec49b9b5e4f64979229, type: 3}
+  bulletScript: {fileID: -1929594128128938491, guid: 9158130459eb1ec49b9b5e4f64979229, type: 3}
 --- !u!61 &8054330641573231924
 BoxCollider2D:
   m_ObjectHideFlags: 0

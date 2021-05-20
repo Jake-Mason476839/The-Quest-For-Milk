@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy_Sun_AI : MonoBehaviour
 {
     public GameObject sunflowerBullet;
+    public Bullet bulletScript;
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -13,5 +14,10 @@ public class Enemy_Sun_AI : MonoBehaviour
             Kill_Count.killCounter += 1;
             Destroy (gameObject);
         }
+    }
+
+    public void ShootEvent()
+    {
+        bulletScript.Fire();
     }
 }
